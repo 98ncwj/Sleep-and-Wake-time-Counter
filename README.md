@@ -4,7 +4,7 @@ function accepts a txt file containing schedules and writes output of total waki
 
 first line of text file input is number of cases followed by number of waking hours and respective waking hours 
 
-example:
+example .txt:
 
 2               
 
@@ -27,9 +27,12 @@ example:
 //sleep from 06:00 to 09:00, 10:00 to 11:00
 //wake from 09:00 to 10:00
 
-Output:\n
+Output:
+
 Case XX : WAKE SLEEP
 
 output for example:
+
 Case 1: 1830 840
+
 Case 2: 60 240
