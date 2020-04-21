@@ -6,19 +6,28 @@ first line of text file input is number of cases followed by number of waking ho
 
 example:
 
-2               //two cases in total
+2               
 
-3		//3 schedules
-05:00 06:00     //sleep from 05:00 to 06:00, 20:00 to 08:30,..
-20:00 08:30     //wake from 06:00 to 20:00, 08:30 to 01:00
+3		
+05:00 06:00     
+20:00 08:30     
 01:00 01:30
 
 2
-06:00 09:00    //sleep from 06:00 to 09:00, 10:00 to 11:00
-10:00 11:00    //wake from 09:00 to 10:00
+06:00 09:00    
+10:00 11:00  
 
+//two cases in total 
 
-Output:
+//3 schedules
+//sleep from 05:00 to 06:00, 20:00 to 08:30,..
+//wake from 06:00 to 20:00, 08:30 to 01:00
+
+//2 schedules
+//sleep from 06:00 to 09:00, 10:00 to 11:00
+//wake from 09:00 to 10:00
+
+Output:\n
 Case XX : WAKE SLEEP
 
 output for example:
