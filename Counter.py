@@ -1,10 +1,11 @@
-import copy
+# converts time to minutes
 def convert_minutes(hours,minutes):
     answer=0
     answer+=hours*60
     answer+=minutes
     return answer
 
+#find difference between starting time and ending time
 def diff_time(shour,smin,ehour,emin):
     hdiff=0
     mdiff=0
@@ -45,10 +46,9 @@ def diff_time(shour,smin,ehour,emin):
     
     return hdiff,mdiff
 
-        
 
-f = open("C:/Users/Nicholas/Desktop/New/test.txt", "r")
-out=open("C:/Users/Nicholas/Desktop/New/output.txt","w")
+f = open("C:/Users/Nicholas/Desktop/Sleep-and-Wake-time-Counter/test.txt", "r")
+out=open("C:/Users/Nicholas/Desktop/Sleep-and-Wake-time-Counter/output.txt","w")
 awake=0
 sleep=0
 cases= 0
@@ -74,7 +74,7 @@ while cases<total:
         
     temp=[]
     
-    answer="Case "+str(cases+1)+":"+str(awake)+" "+str(sleep)+"\n"
+    answer="Case "+str(cases+1)+": "+str(awake)+" "+str(sleep)+"\n"
     out.write(answer)
     awake=0
     sleep=0
